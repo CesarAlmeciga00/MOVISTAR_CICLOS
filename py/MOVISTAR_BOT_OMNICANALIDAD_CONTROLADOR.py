@@ -7,11 +7,11 @@ lEmail = email
 
 start_time = time.time()
 
-ip = "172.17.8.68"
+ip = ""
 port = "3306"
-user = "cesaralmeciga5850"
-password = "U@SXQFNiEeShz66wxgzt"
-bbdd = "bbdd_cs_bog_movistar_ciclos"
+user = ""
+password = ""
+bbdd = ""
 sqlEngine = sql_connection(ip, port, user, password, bbdd)
 connectionGesBot = sqlEngine.connect()
 connectionSms = sqlEngine.connect()
