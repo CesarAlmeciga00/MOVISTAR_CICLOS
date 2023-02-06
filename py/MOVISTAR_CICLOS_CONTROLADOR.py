@@ -5,11 +5,11 @@ asgFs = asignacionFs
 
 start_time = time.time()
 
-ip = "172.17.8.68"
-port = "3306"
-user = "cesaralmeciga5850"
-password = "U@SXQFNiEeShz66wxgzt"
-bbdd = "bbdd_cs_bog_movistar_ciclos"
+ip = ""
+port = ""
+user = ""
+password = ""
+bbdd = ""
 sqlEngine = sql_connection(ip, port, user, password, bbdd)
 connectionSp1 = sqlEngine.connect()
 connectionSp2 = sqlEngine.connect()
