@@ -1,0 +1,4 @@
+color 2
+cd C:\MOVISTAR_CICLOS\01_SCRIPTS\py
+python .\MOVISTAR_CICLOS_CONTROLADOR.py
+pause
